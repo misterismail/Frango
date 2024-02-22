@@ -7,4 +7,4 @@
     - [ ]CSS
 - [ ] Introdução
 - [ ] Frangos separados por categorias
-- [ ] Caixa expansível informativa sobre os pratos
+- [ ] Caixa expansível informativa sobre os pratos 
