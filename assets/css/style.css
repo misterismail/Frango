@@ -5,6 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
 body {
     background-color: #E7C19F;
+    margin-left: 10rem;
+}
+
+:root {
+    --color-primary: #E6024F;
+    --color-background: #E7C19F;
+    --color-black: #1c1c1c;
+    --color-white: #dbdbdb;
+    
 }
 
 header::before{
@@ -51,4 +60,24 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+    #lista li{
+    display: inline;
+    margin: 50px;
+    text-align: right;
+    }
+
+#secao-apresentacao{
+    display:block;
+    padding: 4rem;
+}
+
+#secao-imagens-pag-principal img{
+    display:flex;
+    border-radius: 10%;
+}
+#conteudo-principal{
+    display:flex;
 }
