@@ -3,10 +3,14 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
-body {
-    background-color: #E7C19F;
-    margin-left: 10rem;
+* {
+    margin: 0;
 }
+
+body {
+    background-color: #E7C19F;    
+}
+
 
 :root {
     --color-primary: #E6024F;
@@ -63,21 +67,46 @@ p{
 }
 
 
-    #lista li{
+#lista li{
     display: inline;
-    margin: 50px;
+    padding: 4rem;
     text-align: right;
     }
 
+#caixa_de_busca{
+    display: flex;
+    background-color: transparent;
+    border:solid 1px #1c1c1c;
+    border-radius:15px;
+    width:280px;
+    height:32px;
+}
+#txt_caixa_de_busca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  border-radius: 15px;
+  height:32px;
+  width:280px;
+}
+
+
+
 #secao-apresentacao{
     display:block;
-    padding: 4rem;
+    padding: 0 1rem;
 }
 
 #secao-imagens-pag-principal img{
     display:flex;
     border-radius: 10%;
+    margin-top: 5px;
+    
 }
 #conteudo-principal{
     display:flex;
+    align-self: center;
+    padding: 0 10%;
 }
