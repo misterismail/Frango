@@ -20,6 +20,7 @@ body {
     --color-black: #1c1c1c;
     --color-white: #dbdbdb;
     
+    
 }
 
 #header{
@@ -81,28 +82,30 @@ p{
 }
 
 #lista{
-    width: 1003px;
+    width: 100vw;
     margin: auto;
     align-self: center;
     padding-top: 1rem;
     padding-bottom: 4rem;
+     
 }
 #lista ul {
     display: flex;
     align-items: center;
     padding: 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
     justify-content: space-between;
-    width: 100%;
+    
 }
 #lista li{
     display: inline;
 
-    
     }
 
 #caixa_de_busca{
     display: flex;
-    background-color: transparent;
+    background-color: #e9dfd6;
     border:solid 1px #1c1c1c;
     border-radius:15px;
     width:280px;
@@ -120,30 +123,31 @@ p{
 }
 
 #conteudo-principal{
-    width: 1003px;
-    margin: 0 auto;
+    margin: 0 0;
+    width: auto;
+    display: flex;
+    margin: auto 10vw;
     align-self: center;
+    justify-content: space-between;
     
 }
 
 #bloco-esquerda{
-    float:left;
-    width:240px;
-}
-#das_direita{
-    float:right;
-    width:750px;
-    
+    display: flex;
+    flex-direction: column;
+    width:25vw;
 }
 
 #bloco-meio{
+    
     float:left;
-    width:480px;
+    width:40vw;
+    margin: 0 4%;
 }
 
 #bloco-direita{
     float:right;
-    width:240px;
+    width:25vw;
 }
 
 #secao-imagens-pag-principal img{
@@ -151,4 +155,30 @@ p{
     border-radius: 10%;
     margin-top: 5px;
     
+}
+
+
+#formulario {
+    text-align: center;
+
+}
+
+
+#email{
+    margin-top: 50px;
+    justify-content: center;
+    margin: 0;
+    background-color:transparent;
+    padding: 0;
+    font-size:18px;
+    border:1px;
+    border-radius: 15px;
+    height:32px;
+    width:auto;
+    align-items: center;
+    
+}
+
+#botao-cadastrar{
+    justify-content: center;
 }
