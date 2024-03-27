@@ -33,16 +33,16 @@ body {
 }
 
 
-header::before{
+/* header::before{
     content: "";
-    /*background-color: #bce79f;*/
+    /*background-color: #bce79f;    (essa linha é um comentario dentro de um comentario)
     height: 100vh;
     width: 100vw;
     display: block;
     position: absolute;
     z-index: -10;
 
-}
+}*/
 
 
 h1 {
@@ -82,7 +82,7 @@ p{
 }
 
 #lista{
-    width: 100vw;
+    width: 100%;
     margin: auto;
     align-self: center;
     padding-top: 1rem;
@@ -100,8 +100,14 @@ p{
 }
 #lista li{
     display: inline;
+    
 
     }
+
+#lista a{
+    color: #1C1C1C;
+    text-decoration:none;
+}
 
 #caixa_de_busca{
     display: flex;
@@ -151,9 +157,11 @@ p{
 }
 
 #secao-imagens-pag-principal img{
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     border-radius: 10%;
     margin-top: 5px;
+    
     
 }
 
